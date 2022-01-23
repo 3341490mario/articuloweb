@@ -1,5 +1,5 @@
 <template>
-  <div id="container">
+  <div class="container">
     <div id="cabecera">
       <img src="#" alt="logo" />
       <nav class="menu">
@@ -14,6 +14,7 @@
       <div class="session">
         <a href="#" class="button">Registrarse</a>
         <a href="#" class="button">Iniciar sesión</a>
+        <a href="#" class="button">Cesta</a>
       </div>
     </div>
   </div>
@@ -30,15 +31,27 @@
   background-color: lightblue;
 }
 
+#cabecera img {
+  width: 10%;
+}
+
 #cabecera .menu {
   background-color: lightyellow;
-  display: block;
 }
 
 #cabecera .menu ul {
+  margin: 0;
+  padding: 0;
   display: flex;
+  width: 100%;
   list-style: none;
+}
+
+#cabecera .menu ul li {
+  display: flex;
   padding: 1rem;
+  background-color: lightcoral;
+  font-weight: bold;
 }
 
 .session {
