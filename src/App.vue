@@ -1,11 +1,15 @@
 <template>
   <Cabecera />
+  <Breadcrumb />
+  <ProductoImagenes />
   <Pie />
 </template>
 
 <script setup>
 import Cabecera from "./components/Cabecera.vue";
+import ProductoImagenes from "./components/ProductoImagenes.vue";
 import Pie from "./components/Pie.vue";
+import Breadcrumb from "./components/Breadcrumb.vue";
 </script>
 
 <style>

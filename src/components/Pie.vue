@@ -14,7 +14,9 @@
       </div>
       <div id="rrss">
         <h2>Redes Sociales</h2>
-        <a href="#"><img src="../assets/instagram-logo.png" alt="Instagram" /></a>
+        <a href="#"
+          ><img src="../assets/instagram-logo.png" alt="Instagram"
+        /></a>
         <a href="#"><img src="../assets/facebook-logo.png" alt="Facebook" /></a>
         <a href="#"><img src="../assets/twitter-logo.png" alt="Twitter" /></a>
       </div>
@@ -28,15 +30,17 @@ export default {};
 
 <style>
 .prueba {
-    display: block;
-    bottom: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 footer {
-    display: flex;
-    justify-content: space-around;
+  background-color: lightslategray;
+  display: flex;
+  justify-content: space-around;
 }
 
 #rrss img {
-    width: 50px;
+  width: 50px;
 }
 </style>

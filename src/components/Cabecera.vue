@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div id="cabecera">
-      <img src="#" alt="logo" />
+      <img src="../assets/logoXixo.png" alt="Logo Xixohelat" />
       <nav class="menu">
         <ul>
           <li><a href="">Menu 1</a></li>
@@ -27,7 +27,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: lightblue;
 }
 
