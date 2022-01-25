@@ -30,8 +30,6 @@ export default {};
 
 <style>
 .prueba {
-  position: fixed;
-  bottom: 0;
   width: 100%;
 }
 footer {

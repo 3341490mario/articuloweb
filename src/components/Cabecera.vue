@@ -1,21 +1,19 @@
 <template>
-  <div class="container">
-    <div id="cabecera">
-      <img src="../assets/logoXixo.png" alt="Logo Xixohelat" />
-      <nav class="menu">
-        <ul>
-          <li><a href="">Menu 1</a></li>
-          <li><a href="">Menu 2</a></li>
-          <li><a href="">Menu 3</a></li>
-          <li><a href="">Menu 4</a></li>
-          <li><a href="">Menu 5</a></li>
-        </ul>
-      </nav>
-      <div class="session">
-        <a href="#" class="button">Registrarse</a>
-        <a href="#" class="button">Iniciar sesión</a>
-        <a href="#" class="button">Cesta</a>
-      </div>
+  <div id="cabecera">
+    <img src="../assets/logoXixo.png" alt="Logo Xixohelat" />
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Menu 1</a></li>
+        <li><a href="#">Menu 2</a></li>
+        <li><a href="#">Menu 3</a></li>
+        <li><a href="#">Menu 4</a></li>
+        <li><a href="#">Menu 5</a></li>
+      </ul>
+    </nav>
+    <div class="session">
+      <a href="#" class="button">Registrarse</a>
+      <a href="#" class="button">Iniciar sesión</a>
+      <a href="#" class="button">Cesta</a>
     </div>
   </div>
 </template>
@@ -27,7 +25,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: lightblue;
 }
 
@@ -48,7 +46,6 @@
 }
 
 #cabecera .menu ul li {
-  display: flex;
   padding: 1rem;
   background-color: lightcoral;
   font-weight: bold;
