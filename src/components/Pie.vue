@@ -35,7 +35,7 @@ export default {};
 footer {
   background-color: lightslategray;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 #rrss img {

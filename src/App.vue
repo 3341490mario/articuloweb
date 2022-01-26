@@ -8,12 +8,23 @@
   <Pie />
 </template>
 
-<script setup>
+<script>
 import Cabecera from "./components/Cabecera.vue";
 import ProductoImagenes from "./components/ProductoImagenes.vue";
 import ProductoDescripcion from "./components/ProductoDescripcion.vue";
 import Pie from "./components/Pie.vue";
 import Breadcrumb from "./components/Breadcrumb.vue";
+
+export default {
+  name: "App",
+  components: {
+    Cabecera,
+    ProductoImagenes,
+    ProductoDescripcion,
+    Breadcrumb,
+    Pie,
+  }
+}
 </script>
 
 <style>
