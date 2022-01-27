@@ -22,11 +22,11 @@ export default {
     data () {
         return {
             fotos: [
-                '/src/assets/producto1.jpg',              
-                '/src/assets/producto1.jpg',
-                '/src/assets/producto2.jpg',
-                '/src/assets/producto3.jpg',
-                '/src/assets/producto4.jpg'
+                '/src/assets/router1.jpg',              
+                '/src/assets/router1.jpg',
+                '/src/assets/router2.jpg',
+                '/src/assets/router3.jpg',
+                '/src/assets/router4.jpg'
             ]
         }
     },
@@ -41,21 +41,20 @@ export default {
 <style>
 #images {
   width: 50%;
-  background-color: lightsalmon;
-  height: 800px;
   padding: 2rem;
   box-sizing: border-box;
   text-align: center;
 }
 
 #images img {
-  border: 1px solid black;
+  border: 4px solid cadetblue;
   border-radius: 10px;
 }
 
 #principal img {
-  width: 50%;
+  width: 70%;
   height: auto;
+  margin-top: 5%;
 }
 
 #miniaturas {
@@ -66,7 +65,7 @@ export default {
 }
 
 #miniaturas img {
-  width: 50%;
+  width: 70%;
   height: auto;
 }
 </style>

@@ -1,4 +1,5 @@
 <template>
+<div id="container">
   <Cabecera />
   <Breadcrumb />
   <div id="product">
@@ -6,6 +7,7 @@
     <ProductoDescripcion />
   </div>
   <Pie />
+</div>
 </template>
 
 <script>
@@ -28,15 +30,19 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Dongle&family=Inter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Inter&family=Nunito&display=swap');
 
 body {
-  font-family: "Dongle", sans-serif;
-  font-size: 1.5rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
   margin: 0px;
   padding: 0px;
 }
-
+#container {
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
 #product {
   display: flex;
   flex-direction: row;

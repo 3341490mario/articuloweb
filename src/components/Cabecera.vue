@@ -1,13 +1,13 @@
 <template>
   <div id="cabecera">
-    <img src="../assets/logoXixo.png" alt="Logo Xixohelat" />
+    <img src="../assets/logoasus.png" alt="Logo Xixohelat" />
     <nav class="menu">
       <ul>
-        <li><a href="#">Menu 1</a></li>
-        <li><a href="#">Menu 2</a></li>
-        <li><a href="#">Menu 3</a></li>
-        <li><a href="#">Menu 4</a></li>
-        <li><a href="#">Menu 5</a></li>
+        <li><a href="#">Routers</a></li>
+        <li><a href="#">Placas base</a></li>
+        <li><a href="#">Portátiles</a></li>
+        <li><a href="#">Monitores</a></li>
+        <li><a href="#">Soporte</a></li>
       </ul>
     </nav>
     <div class="session">
@@ -27,15 +27,16 @@ export default {};
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: lightblue;
 }
 
 #cabecera img {
-  width: 10%;
+  width: 8%;
 }
 
 #cabecera .menu {
+  width: 30%;
   background-color: lightyellow;
 }
 
@@ -45,21 +46,31 @@ export default {};
   display: flex;
   width: 100%;
   list-style: none;
+  background-color: blue;
+  box-sizing: border-box;
 }
 
 #cabecera .menu ul li {
   padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
   background-color: lightcoral;
   font-weight: bold;
 }
 
 .session {
   display: flex;
+  box-sizing: border-box;
+  width: 20%;
   background-color: lime;
 }
 
 .button {
   padding: 1rem;
+  border: 2px solid cadetblue;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
