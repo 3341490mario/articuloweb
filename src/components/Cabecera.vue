@@ -28,7 +28,7 @@ export default {};
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: lightblue;
+  background-color: slategrey;
 }
 
 #cabecera img {
@@ -36,8 +36,7 @@ export default {};
 }
 
 #cabecera .menu {
-  width: 30%;
-  background-color: lightyellow;
+  width: 40%;
 }
 
 #cabecera .menu ul {
@@ -46,7 +45,6 @@ export default {};
   display: flex;
   width: 100%;
   list-style: none;
-  background-color: blue;
   box-sizing: border-box;
 }
 
@@ -54,19 +52,25 @@ export default {};
   padding: 1rem;
   margin-left: auto;
   margin-right: auto;
-  background-color: lightcoral;
   font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#cabecera .menu ul li a:hover {
+  color: white;
+  font-size: 1.4rem;
 }
 
 .session {
   display: flex;
   box-sizing: border-box;
   width: 20%;
-  background-color: lime;
 }
 
 .button {
-  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 1.5rem;
   border: 2px solid cadetblue;
   border-radius: 10px;
   margin-left: auto;

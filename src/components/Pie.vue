@@ -2,6 +2,10 @@
   <footer>
     <div id="contact">
       <h2>Contacto</h2>
+      <address>
+        <p>Calle Inventada, 15</p>
+        <p>Tlf: +34 968 589 685</p>
+      </address>
     </div>
     <div id="pedidos">
       <h2>Pedidos</h2>
@@ -13,9 +17,9 @@
     </div>
     <div id="rrss">
       <h2>Redes Sociales</h2>
-      <a href="#"><img src="../assets/instagram-logo.png" alt="Instagram" /></a>
-      <a href="#"><img src="../assets/facebook-logo.png" alt="Facebook" /></a>
-      <a href="#"><img src="../assets/twitter-logo.png" alt="Twitter" /></a>
+      <a href="#"><img src="../assets/instagram-logo.png" alt="Instagram" title="Instagram" /></a>
+      <a href="#"><img src="../assets/facebook-logo.png" alt="Facebook" title="Facebook" /></a>
+      <a href="#"><img src="../assets/twitter-logo.png" alt="Twitter" title="Twitter" /></a>
     </div>
   </footer>
 </template>
@@ -26,28 +30,27 @@ export default {};
 
 <style>
 footer {
-  background-color: lightslategray;
+  font-size: 1.2rem;
+  background-color: slategrey;
   display: flex;
   justify-content: space-around;
   align-content: center;
 }
 
 #contact {
-  background-color: burlywood;
   width: 20%;
 }
 
 #pedidos {
   width: 20%;
-  background-color: chocolate;
 }
 
 #rrss {
   width: 20%;
-  background-color: brown;
 }
 #rrss img {
   width: 50px;
-  padding: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 </style>

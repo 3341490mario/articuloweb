@@ -2,12 +2,12 @@
   <div class="description">
     <h1>RT-AC66U</h1>
     <p class="price">84.95€</p>
-    <div class="cantidad">
-      <button>-</button>
-      <input type="text" />
-      <button>+</button>
+    <div class="contador">
+      <button @click="cambiarCantidad('-1')">-</button>
+      <input class="cantidad" type="text" :value="cantidad" />
+      <button @click="cambiarCantidad('1')">+</button>
     </div>
-    <button id="add">Añadir al carrito</button>
+    <button class="button">Añadir al carrito</button>
     <h3>Router Gigabit Wireless-AC1750 dual-band 802.11ac</h3>
     <ul>
       <li>
@@ -35,12 +35,28 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  Name: "ProductoDescripcion",
+  data() {
+    return {
+      cantidad: 1
+    }
+  },
+  methods: {
+    cambiarCantidad(number){
+      this.cantidad += +number;
+      
+      if(!isNaN(this.cantidad) && (this.cantidad <= 0)){
+        this.cantidad = 1
+      }
+    }
+  }
+}
 </script>
 <style>
 .description {
   width: 50%;
-  background-color: lightseagreen;
+  background-color: cadetblue;
   box-sizing: border-box;
   padding: 3%;
   padding-top: 0;
@@ -54,6 +70,6 @@ export default {};
 .price {
   margin: 0;
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 </style>

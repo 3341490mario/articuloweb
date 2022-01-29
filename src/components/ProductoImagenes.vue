@@ -5,37 +5,41 @@
     </div>
     <div id="miniaturas">
       <a @click="cambiarFoto(1)">
-        <img v-bind:src="fotos[1]" alt="Portátil Huawei MateBoot X" /></a>
+        <img v-bind:src="fotos[1]" alt="ASUS RT-AC66U"
+      /></a>
       <a @click="cambiarFoto(2)">
-        <img v-bind:src="fotos[2]" alt="Portátil Huawei MateBoot X" /></a>
+        <img v-bind:src="fotos[2]" alt="ASUS RT-AC66U"
+      /></a>
       <a @click="cambiarFoto(3)">
-        <img v-bind:src="fotos[3]" alt="Portátil Huawei MateBoot X"/></a>
+        <img v-bind:src="fotos[3]" alt="ASUS RT-AC66U"
+      /></a>
       <a @click="cambiarFoto(4)">
-        <img v-bind:src="fotos[4]" alt="Portátil Huawei MateBoot X"/></a>
+        <img v-bind:src="fotos[4]" alt="ASUS RT-AC66U"
+      /></a>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  Name: 'ProductoImagenes',
-    data () {
-        return {
-            fotos: [
-                '/src/assets/router1.jpg',              
-                '/src/assets/router1.jpg',
-                '/src/assets/router2.jpg',
-                '/src/assets/router3.jpg',
-                '/src/assets/router4.jpg'
-            ]
-        }
-    },
-    methods: {
-        cambiarFoto(id) {
-            this.fotos[0] = this.fotos[id]
-        }
+  Name: "ProductoImagenes",
+  data() {
+    return {
+      fotos: [
+        "/src/assets/router1.jpg",
+        "/src/assets/router1.jpg",
+        "/src/assets/router2.jpg",
+        "/src/assets/router3.jpg",
+        "/src/assets/router4.jpg"
+        ],
     }
-}
+  },
+  methods: {
+    cambiarFoto(id) {
+      this.fotos[0] = this.fotos[id];
+    }
+  }
+};
 </script>
 
 <style>
