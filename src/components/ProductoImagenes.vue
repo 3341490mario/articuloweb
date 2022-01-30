@@ -26,11 +26,11 @@ export default {
   data() {
     return {
       fotos: [
-        require ('../assets/router1.jpg'),
-        "../assets/router1.jpg",
-        "../assets/router2.jpg",
-        "../assets/router3.jpg",
-        "../assets/router4.jpg",
+        "https://www.asus.com/media/global/products/LzShv8ma7TrQB4eO/cdNNvKnT2n4saY3R_480.jpg",
+        "https://www.asus.com/media/global/products/LzShv8ma7TrQB4eO/cdNNvKnT2n4saY3R_480.jpg",
+        "https://www.asus.com/media/global/products/LzShv8ma7TrQB4eO/VGmK4P0hlDfXLH49_480.jpg",
+        "https://www.asus.com/media/global/products/LzShv8ma7TrQB4eO/kTQywRpwLT3Q4LUp_480.jpg",
+        "https://www.asus.com/media/global/products/LzShv8ma7TrQB4eO/lONmmYVjqmPshLvG_480.jpg",
         ],
     }
   },
