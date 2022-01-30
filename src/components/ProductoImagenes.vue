@@ -26,8 +26,8 @@ export default {
   data() {
     return {
       fotos: [
-        "../assets/router1.jpg",
-        "../assets/router1.jpg",
+        "https://pbs.twimg.com/profile_images/1438905642262175753/kesiMZxW_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1438905642262175753/kesiMZxW_400x400.jpg",
         "../assets/router2.jpg",
         "../assets/router3.jpg",
         "../assets/router4.jpg",
