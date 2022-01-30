@@ -26,11 +26,11 @@ export default {
   data() {
     return {
       fotos: [
-        "/assets/router1.jpg",
-        "/assets/router1.jpg",
-        "/assets/router2.jpg",
-        "/assets/router3.jpg",
-        "/assets/router4.jpg"
+        require ('../assets/router1.jpg'),
+        require ('../assets/router1.jpg'),
+        require ('../assets/router2.jpg'),
+        require ('../assets/router3.jpg'),
+        require ('../assets/router4.jpg'),
         ],
     }
   },
