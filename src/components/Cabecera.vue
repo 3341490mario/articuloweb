@@ -3,17 +3,26 @@
     <img src="../assets/logoasus.png" alt="Logo Xixohelat" />
     <nav class="menu">
       <ul>
-        <li><a href="#">Routers</a></li>
-        <li><a href="#">Placas base</a></li>
-        <li><a href="#">Portátiles</a></li>
-        <li><a href="#">Monitores</a></li>
-        <li><a href="#">Soporte</a></li>
+        <li>
+          <a href="#">Routers</a>
+        </li>
+        <li>
+          <a href="#">Placas base</a>
+        </li>
+        <li>
+          <a href="#">Portátiles</a>
+        </li>
+        <li>
+          <a href="#">Monitores</a>
+        </li>
+        <li>
+          <a href="#">Soporte</a>
+        </li>
       </ul>
     </nav>
     <div class="session">
-      <a href="#" class="button">Registrarse</a>
-      <a href="#" class="button">Iniciar sesión</a>
-      <a href="#" class="button">Cesta</a>
+      <a href="#" class="material-icons md-36" title="Mi cuenta">account_circle</a>
+      <a href="#" class="material-icons md-36" title="Mi cesta">shopping_bag</a>
     </div>
   </div>
 </template>
@@ -53,29 +62,23 @@ export default {};
   margin-left: auto;
   margin-right: auto;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: clamp(0.8rem, 1rem, 1.2rem);
 }
 
 #cabecera .menu ul li a:hover {
   color: white;
-  font-size: 1.4rem;
+  font-size: clamp(1rem, 1.2rem, 1.4rem);
 }
 
 .session {
   display: flex;
+  align-items: center;
   box-sizing: border-box;
-  width: 20%;
+  justify-content: space-around;
+  width: 8%;
 }
 
-.button {
-  font-weight: bold;
-  font-size: 1.1rem;
-  padding: 1.5rem;
-  border: 2px solid cadetblue;
-  border-radius: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
+.material-icons.md-36 { font-size: 36px; }
 
 a {
   text-decoration: none;

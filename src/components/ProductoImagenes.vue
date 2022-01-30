@@ -51,7 +51,7 @@ export default {
 }
 
 #images img {
-  border: 4px solid cadetblue;
+  border: 3px solid dodgerblue;
   border-radius: 10px;
 }
 

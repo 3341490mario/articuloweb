@@ -1,19 +1,22 @@
 <template>
-<div id="container">
-  <Cabecera />
-  <Breadcrumb />
-  <div id="product">
-    <ProductoImagenes />
-    <ProductoDescripcion />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <div id="container">
+    <Cabecera />
+    <Breadcrumb />
+    <div id="product">
+      <ProductoImagenes />
+      <ProductoDescripcion />
+    </div>
+    <Video />
+    <Pie />
   </div>
-  <Pie />
-</div>
 </template>
 
 <script>
 import Cabecera from "./components/Cabecera.vue";
 import ProductoImagenes from "./components/ProductoImagenes.vue";
 import ProductoDescripcion from "./components/ProductoDescripcion.vue";
+import Video from "./components/Video.vue";
 import Pie from "./components/Pie.vue";
 import Breadcrumb from "./components/Breadcrumb.vue";
 
@@ -23,6 +26,7 @@ export default {
     Cabecera,
     ProductoImagenes,
     ProductoDescripcion,
+    Video,
     Breadcrumb,
     Pie,
   }
@@ -30,25 +34,33 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Inter&family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dongle&family=Inter&family=Nunito&display=swap");
 
 body {
   font-family: "Nunito", sans-serif;
-  font-size: 1rem;
   margin: 0px;
   padding: 0px;
 }
+
 #container {
-  max-width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
+
 #product {
   display: flex;
   flex-direction: row;
 }
+
 a {
   text-decoration: none;
   color: black;
+}
+
+button:hover {
+  cursor: pointer;
+  background: dodgerblue;
+  color: white;
+  font-weight: bold;
 }
 </style>

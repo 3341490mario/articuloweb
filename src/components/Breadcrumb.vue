@@ -1,11 +1,8 @@
 <template>
   <div id="breadcrumb">
-    <ul class="breadcrumb">
-      <li>Routers</li>
-      <li>Puntos de acceso</li>
-      <li>Domésticos</li>
-      <li id="actual">RT-AC66U</li>
-    </ul>
+    <a href="#">Routers</a> \
+    <a href="#">Domésticos</a> \
+    <a href="#" id="actual">RT-AC66U</a>
   </div>
 </template>
 <script>
@@ -16,10 +13,21 @@ export default {};
   font-weight: bold;
 }
 
-.breadcrumb {
+#breadcrumb {
   margin: 0;
   list-style: none;
   display: flex;
-  background-color: cadetblue;
+  border-top: solid 3px dodgerblue;
+  border-bottom: solid 3px dodgerblue;
+}
+
+#breadcrumb a:hover {
+  color: dodgerblue;
+}
+
+#breadcrumb a, #breadcrumb a:visited{
+    text-decoration: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 </style>
