@@ -1,6 +1,6 @@
 <template>
   <div id="cabecera">
-    <img src="../assets/logoasus.png" alt="Logo Xixohelat" />
+    <img src="../assets/logoasus.png" alt="Logo ASUS" />
     <nav class="menu">
       <ul>
         <li>

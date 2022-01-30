@@ -56,4 +56,9 @@ footer {
   padding-right: clamp(5%, 7%, 10%);
   padding-left: clamp(5%, 7%, 10%);
 }
+
+footer a:hover {
+  font-weight: bold;
+  color: white;
+}
 </style>

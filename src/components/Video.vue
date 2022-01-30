@@ -5,8 +5,9 @@
             height="225"
             src="https://www.youtube-nocookie.com/embed/oLIKfr7E9_0"
             title="YouTube video player"
+            alt="Video unboxin y review router ASUS RT-AC66U"
             frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; picture-in-picture"
+            allow="accelerometer; clipboard-write; picture-in-picture"
             allowfullscreen 
         />
     </div>

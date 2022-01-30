@@ -1,8 +1,10 @@
 <template>
   <div id="breadcrumb">
-    <a href="#">Routers</a> \
-    <a href="#">Domésticos</a> \
-    <a href="#" id="actual">RT-AC66U</a>
+    <ul>
+      <li><a href="#">Routers</a></li>
+      <li><a href="#">Domésticos</a></li>
+      <li><a href="#" id="actual">RT-AC66U</a></li>
+    </ul>
   </div>
 </template>
 <script>
@@ -13,7 +15,7 @@ export default {};
   font-weight: bold;
 }
 
-#breadcrumb {
+#breadcrumb ul {
   margin: 0;
   list-style: none;
   display: flex;
@@ -21,11 +23,17 @@ export default {};
   border-bottom: solid 3px dodgerblue;
 }
 
-#breadcrumb a:hover {
+#breadcrumb ul li+li:before {
+  color: dodgerblue;
+  font-weight: bold;
+  content: "\003E";
+}
+
+#breadcrumb ul li a:hover {
   color: dodgerblue;
 }
 
-#breadcrumb a, #breadcrumb a:visited{
+#breadcrumb ul li a, #breadcrumb ul li a:visited{
     text-decoration: none;
     margin-left: 1rem;
     margin-right: 1rem;

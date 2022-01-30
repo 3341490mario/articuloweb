@@ -1,20 +1,20 @@
 <template>
   <div id="images">
     <div id="principal">
-      <img v-bind:src="fotos[0]" alt="Producto" />
+      <img v-bind:src="fotos[0]" alt="Router ASUS RT-AC66U"  copyright="cc-by"/>
     </div>
     <div id="miniaturas">
       <a @click="cambiarFoto(1)">
-        <img v-bind:src="fotos[1]" alt="ASUS RT-AC66U"
+        <img v-bind:src="fotos[1]" alt="ASUS RT-AC66U Frontal" copyright="cc-by"
       /></a>
       <a @click="cambiarFoto(2)">
-        <img v-bind:src="fotos[2]" alt="ASUS RT-AC66U"
+        <img v-bind:src="fotos[2]" alt="ASUS RT-AC66U Cenital" copyright="cc-by"
       /></a>
       <a @click="cambiarFoto(3)">
-        <img v-bind:src="fotos[3]" alt="ASUS RT-AC66U"
+        <img v-bind:src="fotos[3]" alt="ASUS RT-AC66U Trasera de pie" copyright="cc-by"
       /></a>
       <a @click="cambiarFoto(4)">
-        <img v-bind:src="fotos[4]" alt="ASUS RT-AC66U"
+        <img v-bind:src="fotos[4]" alt="ASUS RT-AC66U Puertos" copyright="cc-by"
       /></a>
     </div>
   </div>
