@@ -26,7 +26,7 @@ export default {
   data() {
     return {
       fotos: [
-        "/src/assets/router1.jpg",
+        require ('../assets/router1.jpg'),
         "../assets/router1.jpg",
         "../assets/router2.jpg",
         "../assets/router3.jpg",
